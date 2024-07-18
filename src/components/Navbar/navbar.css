@@ -1,0 +1,42 @@
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 50px 50px 0 50px;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical {
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    border-radius: 50px;
+    background: black;
+}
+
+.title h1, span {
+    margin-left: 20px;
+    color: var(--header-text-color);
+}
+
+.title span {
+    font-weight: 600;
+    color: rgb(90, 33, 143);
+    margin-top: -25px;
+}
+
+.title h1 {
+    font-weight: 700;
+    margin-top: -3px;
+}

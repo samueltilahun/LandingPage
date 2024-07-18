@@ -1,0 +1,97 @@
+.ourLocation {
+    display: flex;
+    margin: 10px 40px 0px 100px;
+}
+
+.flower {
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 40px;
+    flex: 1;
+}
+
+.flower img {
+    height: 80%;
+}
+
+.our-location {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.our-location div {
+    display: flex;
+}
+
+.our-location .line-column {
+    margin-right: 20px; 
+    height: 80%;
+    align-self: center;
+    width: 25px;
+    border-radius: 50px;
+    background: black;
+}
+
+.our-location h1 {
+    align-self: flex-end;
+    margin-right: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+.our-location div p {
+    text-align: right;
+    padding-right: 25px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:1315px){
+    .our-location h1 {
+        font-size: 40px;
+    }
+
+    .our-location p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1140px){
+    
+    .left-contact h1 {
+        font-size: 40px;
+    }
+
+    .left-contact p {
+        font-size: 16px;
+    }
+
+    .right-contact img {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:1040px){
+    .right-contact img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .ourLocation {
+        flex-direction: column;  
+        margin-bottom: 100px;
+    }
+
+    .flower {
+        justify-content: center;
+        display: flex;
+    }
+    
+    .flower img {
+        height: 100%;
+        width: 80%;
+    }
+    
+}

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('./assets/image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%; /* Ensures the container takes at least the full height of the viewport */
+  width: 100%;
+}
+
+:root {
+  --card-bg: #5F427B;
+  --team-status-bg: #E5CCFF; 
+  --example-prod-bg:#F3E7FF;
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --footer-text-color:#5F427B;
+  --header-text-color:#2E114B;
+  --border-radius: 100px;
+  --about-card-hover-color:#E2E7F1;
+}
+
+
+button { 
+  background-color: hsl(285, 100%, 25%);;
+  border-radius: 50px;
+  color: rgb(233, 231, 231);
+  font-size: 18px;
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: hsl(285, 95%, 39%);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+hr {
+  width: 50%;
+  height: 5px;
+  border-radius: 40px;
+  background-color: hsl(285, 100%, 25%);;
+  margin-top: 100px;
+}
+
+.about {
+  background: url('./assets/about-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home {
+}

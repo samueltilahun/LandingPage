@@ -1,0 +1,77 @@
+.how-to-contact {
+    display: flex;
+    padding: 0px 50px 50px 150px;
+    margin-top: -50px;
+    gap: 10rem;
+}
+
+.left-contact {
+    flex: 1; 
+}
+
+.left-contact h1 {
+    align-self: flex-end;
+    margin-right: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+.left-contact p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.right-contact {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-contact img {
+    height: 400px;
+    margin-top: 40px;    
+}
+
+@media screen and (max-width:1400px){
+    .how-to-contact {
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width:1315px){
+    .left-contact h1 {
+        font-size: 40px;
+    }
+
+    .left-contact p {
+        font-size: 16px;
+    }
+
+    .right-contact img {
+        /* height: 350px; */
+    }
+}
+
+@media screen and (max-width:1140px){
+    
+    .left-contact h1 {
+        font-size: 40px;
+    }
+
+    .left-contact p {
+        font-size: 16px;
+    } 
+}
+
+@media screen and (max-width: 1024px){
+    .how-to-contact {
+        flex-direction: column;  
+    }
+
+    .right-contact img {
+        height: 100%;
+        width: 80%;
+    }
+}

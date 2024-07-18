@@ -1,0 +1,27 @@
+.our-partners {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.product-examples {
+    top: 150px !important; 
+}
+
+.our-partners h1 {
+    margin-bottom: 180px;
+}
+
+.our-partners div {
+    display: flex;
+    top: 190px !important;
+    justify-content: center;
+}
+
+@media screen and (max-width:1024px){
+    .our-partners h1 {
+        margin-bottom: -40px;
+    }
+}
